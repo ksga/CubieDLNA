@@ -3,10 +3,15 @@ Install Debian Stretch on CubieBoard 2 - setup MiniDLNA, SMB, NFS and pi-hole
 
 ## Install Armbian
 Download latest debian **server** image from the Armbian project: https://www.armbian.com/cubieboard-2/
+
 At the time of writing this it is Debian 9.2 Stretch: https://dl.armbian.com/cubieboard2/Debian_stretch_next.7z
+
 Unpack and write to sd-card using Win32DiskImager: https://sourceforge.net/projects/win32diskimager/
+
 Plug into CubieBoard and waaaiiittt.
+
 When device is booted, connect using shh. Username: **root** - Password: **1234**
+
 Follow instructions to change password and create new user - Username: **cubie**
 
 Run 
