@@ -62,3 +62,17 @@ Install latest version using
 ```
 sudo apt-get install minidlna=[version_from_above]
 ```
+
+
+
+## Podget
+sudo dpkg -i podget_<version>_all.deb
+
+
+run podget
+rm -R POD/
+
+crontab -e
+
+15 04 * * * /usr/bin/podget -s
+
